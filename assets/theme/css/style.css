@@ -963,3 +963,16 @@ blockquote {
 	top: 0;
 	left: -2400px;
 }
+
+.animated {
+  animation-name: side2side;
+  animation-duration: 2s;
+  animation-timing-function: step-start;
+  animation-iteration-count: infinite;
+}
+
+@keyframes side2side {
+  0% { rotate: 15deg; }
+  50% { rotate: -15deg; }
+  100% { rotate: 15deg; }
+}
